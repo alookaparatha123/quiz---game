@@ -1,86 +1,47 @@
-# 📝 Python Quiz Game
+# Python Quiz Game
 
-A simple console-based quiz game built using Python. Supports:
-✅ Multiple-choice questions
-✅ True/False questions
-✅ Open-ended questions
-✅ Multiple rounds (5 rounds, 10 questions each)
-✅ Score and accuracy tracking
-✅ Saves leaderboard
+A console-based quiz game built using Python. The game supports multiple question types, tracks scores, and saves high scores locally. Designed for easy use and extension.
 
----
+## Features
 
-## 🚀 How to Run
+- Supports multiple-choice, true/false, and open-ended questions  
+- 5 rounds, 10 questions per round  
+- Tracks player score and accuracy  
+- Saves high scores to a local JSON file  
 
-### 🐍 Run from Python source:
+## Project Structure
 
-1️⃣ Make sure Python 3.x is installed.
-2️⃣ Clone this repo:
-
-```bash
-git clone https://github.com/alookaparatha123/quiz-game.git
-cd quiz-game
-```
-
-3️⃣ Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-4️⃣ Run the game:
-
-```bash
-python quiz_game.py
-```
-
----
-
-### 💻 Run executable (Windows)
-
-If you downloaded the `.exe`:
-
-* Extract the zip file.
-* Make sure `quiz_game.exe` and `questions.json` are in the same folder.
-* Double-click `quiz_game.exe`.
-
----
-
-## 📂 Project Structure
-
-```
 quiz-game/
-├── quiz_game.py         # Main game script
-├── questions.json       # Questions database
-├── scores.json          # Saved scores
-├── requirements.txt     # Python dependencies
-├── README.md            # This file
-```
+├── quiz_game.py         # Main game script  
+├── questions.py         # Question handling logic  
+├── questions.json       # Question database  
+├── scores.json          # Saved high scores  
+├── requirements.txt     # Python dependencies  
+├── LICENSE              # MIT License  
+├── README.md            # Project information  
 
----
+## How to Run
 
-## 🛠 Build executable yourself
+### Run from source
 
-You can use PyInstaller:
+1. Ensure Python 3.x is installed on your system.  
+2. Clone the repository:
+   git clone https://github.com/alookaparatha123/quiz---game.git  
+   cd quiz---game  
+3. Install dependencies:
+   pip install -r requirements.txt  
+4. Run the game:
+   python quiz_game.py  
 
-```bash
-pyinstaller --onefile quiz_game.py
-```
+## Usage Notes
 
-The executable will be in `dist/`.
+- Type exit() or quit() during the game to exit at any time.  
+- Make sure questions.json is in the same directory as quiz_game.py when running the game.  
 
----
+## License
 
-## 📌 Notes
+This project is licensed under the MIT License. See the LICENSE file for details.  
 
-⚠ Keep `questions.json` with your executable!
-⚠ Type `exit()` or `quit()` during the game to quit anytime.
+## Author
 
----
-
-## 📬 License
-
-MIT License
-
-
-owner = MADHAV 
+Developed by Madhav.
