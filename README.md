@@ -82,4 +82,5 @@ The executable will be in `dist/`.
 
 MIT License
 
-https://github.com/alookaparatha123/quiz---game
+
+owner = MADHAV 
