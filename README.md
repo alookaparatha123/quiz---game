@@ -1,4 +1,4 @@
-# 📝 Python Quiz Game
+#Python Quiz Game
 
 A simple console-based quiz game built using Python. Supports:
 ✅ Multiple-choice questions
@@ -10,9 +10,9 @@ A simple console-based quiz game built using Python. Supports:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### 🐍 Run from Python source:
+### Run from Python source:
 
 1️⃣ Make sure Python 3.x is installed.
 2️⃣ Clone this repo:
@@ -46,7 +46,7 @@ If you downloaded the `.exe`:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 quiz-game/
@@ -59,7 +59,7 @@ quiz-game/
 
 ---
 
-## 🛠 Build executable yourself
+##  Build executable yourself
 
 You can use PyInstaller:
 
@@ -78,6 +78,6 @@ The executable will be in `dist/`.
 
 ---
 
-## 📬 License
+##  License
 
 MIT License
